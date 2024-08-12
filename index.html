@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio BitCook</title>
+    <!-- Conexión página estilos -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Inicio menú -->
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+        <a href="formulario.html">
+        <h4>Envíanos tu receta</h4>
+      </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- Inicio Banner página de inicio -->
+    <main>
+      <div class="bannertitulo">
+        <h1>BitCook</h1>
+      </div>
+
+      <!-- ==================== Contenedor para las recetas  ====================-->
+      <div class="recetas-container">
+        <!-- receta 1 -->
+        <div class="Recetas">
+          <a href="receta1.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/receta_ajiaco_santafereño.jpg"
+                alt="Ajiaco Santafereño
+                "
+              />
+              <h2>Ajiaco Santafereño
+              </h2>
+              <ul>
+                <li class="lista">Ajiaco Santafereño
+                  Prueba el Ajiaco Santafereño.</li>
+                <li class="lista">Preparación: 30 minutos.</li>
+                <li class="lista">Cocción: 2 horas.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- receta 2 -->
+        <div class="Recetas">
+          <a href="receta2.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/bandeja-paisa-1616.gif"
+                alt="Bandeja Paisa"
+              />
+              <h2>Bandeja Paisa</h2>
+              <ul>
+                <li class="lista">Disfruta de una Bandeja Paisa</li>
+                <li class="lista">Preparación: 30 minutos.</li>
+                <li class="lista">Cocción: 1 Hora.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- receta 3 -->
+        <div class="Recetas">
+          <a href="receta3.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/sancocho-de-gallina-1594.webp"
+                alt="Sancocho de Gallina
+                "
+              />
+              <h2>Sancocho de Gallina
+              </h2>
+              <ul>
+                <li class="lista">Disfruta de un Sancocho de Gallina</li>
+                <li class="lista">Preparación: 1 hora.</li>
+                <li class="lista">Cocción: 2 horas</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- receta 4 -->
+        <div class="Recetas">
+          <a href="receta4.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/ArepaChoclo_fe3608e9-9760-42ea-8536-13fb4ad2baf1@2x.webp"
+                alt="Arepas de Choclo
+                "
+              />
+              <h2>Arepas de Choclo</h2>
+              <ul>
+                <li class="lista">Disfruta de una Arepas de Choclo<</li>
+                <li class="lista">Preparación: 20 minutos.</li>
+                <li class="lista">Cocción: 20 minutos.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- receta 5 -->
+        <div class="Recetas">
+          <a href="receta5.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/shutterstock_760434061-scaled.jpg"
+                alt="Empanadas colombianas"
+              />
+              <h2>Empanadas colombianas</h2>
+              <ul>
+                <li class="lista">Disfruta de unas Empanadas colombianas.</li>
+                <li class="lista">Preparación: 40 minutos.</li>
+                <li class="lista">Cocción: 50 minutos.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <!-- receta 6 -->
+        <div class="Recetas">
+          <a href="receta6.html" class="receta-link">
+            <div class="platos">
+              <img
+                class="imagen_banner"
+                src="./img/tamales colombiano.jpg"
+                alt="Tamales Colombianos"
+              />
+              <h2>Tamales Colombianos</h2>
+              <ul>
+                <li class="lista">Disfruta de unos Tamales Colombianos</li>
+                <li class="lista">Preparación: 2 horas.</li>
+                <li class="lista">Cocción: 2 horas.</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <!-- Fin de las recetas -->
+    <!-- ==================== cierre Contenedor para las recetas  ====================-->
+
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+      <img
+        class="logo"
+        src="./img/logo_bitcook (1).png"
+        alt="Logo de Recetas Richy"
+      />
+      <a href="  https://bit.institute/">
+      <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+  </a>
+    </footer>
+    <!-- Conexión página javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

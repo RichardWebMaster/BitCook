@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- inicio Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta 6 Tamales Colombianos</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- Inicio menu -->
+  <body>
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+        <!-- redirección formulario -->
+        <a href="formulario.html">
+          <h4>Envíanos tu receta</h4>
+        </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- ===========================* Iinicio contenido pagina receta1.html  ====================== -->
+    <!-- Módulo de Descripción Receta -->
+    <section class="grid-container">
+      <!-- Descripción de la receta -->
+      <div class="descripcion-receta">
+        <div class="platos">
+          <img
+            class="imagen_banner"
+            src="./img/tamales colombiano.jpg"
+            alt="bruschetta"
+          />
+          <h2>Tamales Colombianos</h2>
+          <p>
+            Los Tamales Colombianos son un plato tradicional que forma parte
+            integral de la cultura gastronómica del país. Se preparan a base de
+            una masa de maíz que se rellena con una mezcla de carnes
+            (generalmente cerdo y pollo), papas, zanahorias, guisantes, arroz y
+            condimentos, todo envuelto en hojas de plátano y cocido al vapor. El
+            resultado es un tamal suave, jugoso y lleno de sabor, ideal para
+            disfrutar en reuniones familiares o celebraciones especiales, como
+            la Navidad o el Día de la Independencia.
+            <br />
+            <br />
+            La preparación de los tamales es un proceso laborioso que suele
+            realizarse en grupo, convirtiéndose en una actividad social donde
+            cada miembro de la familia tiene un rol específico. Este plato es un
+            símbolo de la cocina colombiana y varía según la región, con cada
+            zona aportando su toque especial. En muchas familias, la receta del
+            tamal se pasa de generación en generación, manteniendo viva la
+            tradición y el sabor auténtico de la gastronomía colombiana.
+          </p>
+        </div>
+        <div class="preparacion-time">
+          <h2>Tiempo de Preparación</h2>
+          <ul>
+            <li class="lista">Total: Aproximadamente 4 horas.</li>
+            <li class="lista">Preparación: 2 horas.</li>
+            <li class="lista">Cocción: 2 horas.</li>
+          </ul>
+        </div>
+        <h2>Instrucciones</h2>
+        <ol>
+          <li>
+            Lava y corta las hojas de plátano en trozos grandes, luego pásalas
+            por el fuego (sin quemarlas) para que se ablanden. Resérvalas.
+          </li>
+          <br />
+          <li>
+            En una olla grande, cocina el arroz con un poco de sal y aceite
+            hasta que esté casi cocido. Resérvalo.
+          </li>
+          <br />
+          <li>
+            En otra olla, cocina la carne de cerdo y el pollo con cebolla, ajo,
+            sal y pimienta. Una vez cocidos, desmenúzalos y mezcla ambas carnes.
+          </li>
+          <br />
+          <li>
+            Pela y corta las papas y zanahorias en rodajas finas. Cocina los
+            guisantes en agua con sal durante 10 minutos y resérvalos.
+          </li>
+          <br />
+          <li>
+            Prepara la masa mezclando harina de maíz con el caldo de cocción de
+            las carnes hasta obtener una masa suave y manejable. Añade achiote
+            para darle color.
+          </li>
+          <br />
+          <li>
+            Coloca dos hojas de plátano cruzadas y coloca en el centro una
+            porción de masa de maíz. Sobre la masa, agrega una cucharada de
+            arroz, carne desmenuzada, rodajas de papa y zanahoria, y guisantes.
+          </li>
+          <br />
+          <li>
+            Envuelve cuidadosamente el tamal con las hojas de plátano, formando
+            un paquete bien cerrado. Ata el tamal con cuerda de cocina para
+            asegurar que no se abra durante la cocción.
+          </li>
+          <br />
+          <li>
+            Repite el proceso con el resto de los ingredientes hasta que hayas
+            formado todos los tamales.
+          </li>
+          <br />
+          <li>
+            Coloca los tamales en una olla grande con agua caliente,
+            asegurándote de que el agua cubra los tamales. Cocina a fuego medio
+            durante 2 horas.
+          </li>
+          <br />
+          <li>
+            Retira los tamales de la olla y deja reposar durante 10 minutos
+            antes de servir. Acompaña con ají casero y una buena taza de
+            chocolate caliente.
+          </li>
+        </ol>
+      </div>
+      <!-- cierre Módulo de Descripción Receta -->
+
+      <!-- Módulo de Ingredientes izq superior -->
+      <aside class="seccion-aside">
+        <div class="ingredientes">
+          <h2>Ingredientes</h2>
+          <ul>
+            <li class="lista">Total: 2 tazas de harina de maíz precocida .</li>
+            <li class="lista">500g de carne de cerdo y 500g de pollo</li>
+            <li class="lista">
+              2 papas, 2 zanahorias, 1 taza de arroz, 1 taza de guisantes .
+            </li>
+            <li class="lista">Hojas de plátano, achiote y condimentos</li>
+          </ul>
+
+          <!-- ====* inicio tabla nutricion ===== -->
+          <h2>Nutrición</h2>
+          <div class="contenido-nutricional">
+            <table class="tabla-nutricional">
+              <tr>
+                <td>Calorías</td>
+                <td>350 kcal</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>20 g</td>
+              </tr>
+              <tr>
+                <td>Carbohidratos</td>
+                <td>45 g</td>
+              </tr>
+              <tr>
+                <td>Grasas</td>
+                <td>12 g</td>
+              </tr>
+              <tr>
+                <td>Fibra Dietética</td>
+                <td>5 g</td>
+              </tr>
+            </table>
+          </div>
+          <!-- ====* cierre tabla nutricion ===== -->
+        </div>
+        <!-- =========================* inicio de recomendados widget ========================= -->
+
+        <!-- sección de mas recetas izq superior -->
+        <div class="mas-recetas">
+          <h2 class="titulo-mas-recetas">Más Recetas</h2>
+          <!-- blog 1 widget receta  ==================================================-->
+          <div class="recetablog">
+            <a href="./receta1.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/receta_ajiaco_santafereño.jpg"
+                alt="Ajiaco Santafereño"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Ajiaco Santafereño</h3>
+              <p class="descripcioncorta-receta">
+                Prueba el Ajiaco Santafereño, una sopa tradicional colombiana
+                con pollo, tres tipos de papas y el toque único de las guascas.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 1 widget receta  -->
+          <!-- blog 2 widget receta ======================================================== -->
+          <div class="recetablog">
+            <a href="./receta2.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/bandeja-paisa-1616.gif"
+                alt="Bandeja Paisa
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Bandeja Paisa</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de la Bandeja Paisa, un plato tradicional colombiano
+                con frijoles, arroz, chicharrón, carne y aguacate.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 2 widget receta  -->
+          <!-- blog 3 widget receta  =============================================================-->
+          <div class="recetablog">
+            <a href="./receta3.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/sancocho-de-gallina-1594.webp"
+                alt="Sancocho de Gallina"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Sancocho de Gallina</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de un Sancocho de Gallina, un caldo tradicional
+                colombiano con gallina, yuca, papas y plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 3 widget receta  -->
+          <!-- blog 4 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta4.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/ArepaChoclo_fe3608e9-9760-42ea-8536-13fb4ad2baf1@2x.webp"
+                alt="Arepas de Choclo
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Arepas de Choclo
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Arepas de Choclo, una deliciosa arepa colombiana hecha con maíz tierno y queso.
+              </p>
+              </a>
+            </div>
+          </div>
+          <!-- cierre blog 4 widget receta  -->
+          <!-- blog 5 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta5.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/shutterstock_760434061-scaled.jpg"
+                alt="Empanadas Colombianas
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Empanadas Colombianas
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Empanadas Colombianas, crujientes y rellenas de carne y papas, perfectas para cualquier ocasión.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 5 widget receta  -->
+          <!-- blog 6 widget receta  -->
+         
+          </div>
+          <!-- cierre blog 6 widget receta  -->
+        </div>
+      </aside>
+    </section>
+    <!-- cierre de mas recetas izq superior -->
+    <!-- =========================* cierre de recomendados widget ========================= -->
+
+    <!-- ===========================* Cierre contenido  pagina receta1.html====================== -->
+
+    <main>
+      <section></section>
+    </main>
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+      <img
+        class="logo"
+        src="./img/logo_bitcook (1).png"
+        alt="Logo de Recetas Richy"
+      />
+      <a href="  https://bit.institute/">
+        <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+      </a>
+    </footer>
+    <!-- Conexión página javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

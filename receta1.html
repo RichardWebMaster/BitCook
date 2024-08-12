@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- inicio Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta 1 BitCook</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- Inicio menu -->
+  <body>
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+        <!-- redirección formulario -->
+        <a href="formulario.html">
+          <h4>Envíanos tu receta</h4>
+        </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- ===========================* Iinicio contenido pagina receta1.html  ====================== -->
+    <!-- Módulo de Descripción Receta -->
+    <section class="grid-container">
+      <!-- Descripción de la receta -->
+      <div class="descripcion-receta">
+        <div class="platos">
+          <img
+            class="imagen_banner"
+            src="./img/receta_ajiaco_santafereño.jpg"
+            alt="receta_ajiaco_santafereño"
+          />
+          <h2>Ajiaco Santafereño</h2>
+          <p>
+            El Ajiaco Santafereño es uno de los platos más emblemáticos de la
+            gastronomía colombiana, originario de la región de Bogotá y sus
+            alrededores. Esta deliciosa sopa es una mezcla perfecta de
+            diferentes tipos de papas (criolla, pastusa y sabanera), pollo y
+            mazorca, todo acompañado por el sabor único de las guascas, una
+            hierba aromática que le da su característico aroma y sabor. Es una
+            comida reconfortante y sustanciosa, ideal para los días fríos en las
+            tierras altas de la región andina.
+            <br>
+            <br>
+            Este plato es más que una simple
+            sopa; es una celebración de la diversidad de ingredientes que se
+            encuentran en el altiplano cundiboyacense. Tradicionalmente, se
+            sirve con aguacate, alcaparras y una porción de crema de leche, que
+            se añaden al gusto. La combinación de sabores y texturas, desde la
+            suavidad de las papas hasta el frescor del aguacate, hacen del
+            Ajiaco un plato que resalta la riqueza culinaria de Colombia y que
+            es apreciado tanto por locales como por visitantes.
+          </p>
+        </div>
+        <div class="preparacion-time">
+          <h2>Tiempo de Preparación</h2>
+          <ul>
+            <li class="lista">Total: Aproximadamente 2 horas y 30 minutos.</li>
+            <li class="lista">Preparación: 30 minutos.</li>
+            <li class="lista">Cocción: 2 horas.</li>
+          </ul>
+        </div>
+        <h2>Instrucciones</h2>
+        <ol>
+          <li>
+            En una olla grande, agrega aproximadamente 2 litros de agua y coloca
+            el pollo entero o las presas. Cocina a fuego medio hasta que el
+            pollo esté tierno, aproximadamente 45 minutos.
+          </li>
+          <br>
+          <li>
+            Mientras el pollo se cocina, pela y corta las papas en rodajas
+            medianas. Asegúrate de mantener los tres tipos de papas separados.
+          </li>
+          <br>
+          <li>
+            Retira el pollo de la olla y resérvalo para que se enfríe. A
+            continuación, añade las papas pastusa y sabanera al caldo y deja
+            cocer a fuego medio durante 20 minutos.
+          </li>
+          <br>
+          <li>
+            Cuando las papas estén medio cocidas, añade las papas criolla y las
+            mazorcas de maíz cortadas en trozos. Cocina a fuego bajo durante 30
+            minutos más, removiendo ocasionalmente.
+          </li>
+          <br>
+          <li>
+            Desmenuza el pollo en tiras y agrégalo nuevamente a la olla junto
+            con las guascas. Cocina durante otros 15 minutos.
+          </li>
+          <br>
+          <li>Prueba y ajusta la sal según sea necesario. Si el caldo está muy espeso, puedes agregar un poco más de agua.
+          </li>
+          <br>
+          <li>Mientras el ajiaco sigue cocinándose a fuego bajo, prepara las guarniciones: corta el aguacate en rodajas y sirve la crema de leche y las alcaparras en pequeños recipientes.
+          </li>
+          <br>
+          <li>Apaga el fuego y deja reposar el ajiaco durante 10 minutos antes de servir, para que los sabores se asienten.
+          </li>
+          <br>
+          <li>Sirve el ajiaco caliente en platos hondos, añadiendo al gusto una porción de crema de leche, alcaparras y rodajas de aguacate.</li>
+          <li>Acompaña el ajiaco con un buen trozo de arepa y disfruta de este reconfortante plato típico colombiano.
+          </li>
+          <br>
+        </ol>
+      </div>
+      <!-- cierre Módulo de Descripción Receta -->
+
+      <!-- Módulo de Ingredientes izq superior -->
+      <aside class="seccion-aside">
+        <div class="ingredientes">
+          <h2>Ingredientes</h2>
+          <ul>
+            <li class="lista">1 pollo entero (o 4 presas de pollo)
+            </li>
+            <li class="lista">3 tipos de papas: criolla (300g), pastusa (300g) y sabanera (300g)
+            </li>
+            <li class="lista">2 mazorcas de maíz
+            </li>
+            <li class="lista">1 ramo de guascas (hierba aromática)
+
+            </li>
+            <li class="lista">Sal al gusto
+
+            </li>
+          </ul>
+
+          <!-- ====* inicio tabla nutricion ===== -->
+          <h2>Nutrición</h2>
+          <div class="contenido-nutricional">
+            <table class="tabla-nutricional">
+              <tr>
+                <td>Calorías</td>
+                <td>350 kcal
+                </td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>25g
+                </td>
+              </tr>
+              <tr>
+                <td>Carbohidratos	</td>
+                <td>45g
+                </td>
+              </tr>
+              <tr>
+                <td>Grasas</td>
+                <td>277kcal</td>
+              </tr>
+              <tr>
+                <td>Fibra Dietética	</td>
+                <td>10g</td>
+              </tr>
+            </table>
+          </div>
+          <!-- ====* cierre tabla nutricion ===== -->
+        </div>
+
+        <!-- =========================* inicio de recomendados widget ========================= -->
+
+        <!-- sección de mas recetas izq superior -->
+        <div class="mas-recetas">
+          <h2 class="titulo-mas-recetas">Más Recetas</h2>
+          <!-- blog 1 widget receta  ==================================================-->
+          
+          <!-- cierre blog 1 widget receta  -->
+          <!-- blog 2 widget receta ======================================================== -->
+          <div class="recetablog">
+            <a href="./receta2.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/bandeja-paisa-1616.gif"
+                alt="Bandeja Paisa
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Bandeja Paisa</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de la Bandeja Paisa, un plato tradicional colombiano
+                con frijoles, arroz, chicharrón, carne y aguacate.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 2 widget receta  -->
+          <!-- blog 3 widget receta  =============================================================-->
+          <div class="recetablog">
+            <a href="./receta3.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/sancocho-de-gallina-1594.webp"
+                alt="Sancocho de Gallina"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Sancocho de Gallina</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de un Sancocho de Gallina, un caldo tradicional
+                colombiano con gallina, yuca, papas y plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 3 widget receta  -->
+          <!-- blog 4 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta4.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/ArepaChoclo_fe3608e9-9760-42ea-8536-13fb4ad2baf1@2x.webp"
+                alt="Arepas de Choclo
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Arepas de Choclo
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Arepas de Choclo, una deliciosa arepa colombiana hecha con maíz tierno y queso.
+              </p>
+              </a>
+            </div>
+          </div>
+          <!-- cierre blog 4 widget receta  -->
+          <!-- blog 5 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta5.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/shutterstock_760434061-scaled.jpg"
+                alt="Empanadas Colombianas
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Empanadas Colombianas
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Empanadas Colombianas, crujientes y rellenas de carne y papas, perfectas para cualquier ocasión.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 5 widget receta  -->
+          <!-- blog 6 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta6.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/tamales colombiano.jpg"
+                alt="tamales colombiano"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Tamales Colombiano              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de los Tamales Colombianos, rellenos de carne, papas y arroz, envueltos en hojas de plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 6 widget receta  -->
+        </div>
+      </aside>
+    </section>
+    <!-- cierre de mas recetas izq superior -->
+    <!-- =========================* cierre de recomendados widget ========================= -->
+
+    <!-- ===========================* Cierre contenido  pagina receta1.html====================== -->
+
+    <main>
+      <section></section>
+    </main>
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+      <img
+        class="logo"
+        src="./img/logo_bitcook (1).png"
+        alt="Logo de Recetas Richy"
+      />
+      <a href="  https://bit.institute/">
+        <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+      </a>
+    </footer>
+    <!-- Conexión página javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

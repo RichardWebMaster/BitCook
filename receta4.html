@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- inicio Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta 4 BitCook</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- Inicio menu -->
+  <body>
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+        <!-- redirección formulario -->
+        <a href="formulario.html">
+          <h4>Envíanos tu receta</h4>
+        </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- ===========================* Iinicio contenido pagina receta1.html  ====================== -->
+    <!-- Módulo de Descripción Receta -->
+    <section class="grid-container">
+      <!-- Descripción de la receta -->
+      <div class="descripcion-receta">
+        <div class="platos">
+          <img
+            class="imagen_banner"
+            src="./img/ArepaChoclo_fe3608e9-9760-42ea-8536-13fb4ad2baf1@2x.webp"
+            alt="bruschetta"
+          />
+          <h2>Arepas de Choclo</h2>
+          <p>
+            Las Arepas de Choclo son una deliciosa variación de la clásica arepa
+            colombiana, hechas con maíz tierno (choclo) y generalmente
+            acompañadas de queso fundido. Originarias de las regiones andinas,
+            estas arepas son suaves y ligeramente dulces, lo que las convierte
+            en un desayuno o merienda irresistible. Su sabor único proviene del
+            choclo, que es una variedad de maíz más dulce y con una textura más
+            tierna que el maíz tradicional utilizado en otras arepas. Estas
+            arepas se sirven tradicionalmente con mantequilla y queso, y son una
+            opción perfecta para disfrutar en cualquier momento del día.
+            <br />
+            <br />
+            La preparación de las arepas de choclo es sencilla, pero requiere
+            ingredientes frescos y de calidad para resaltar su sabor
+            característico. Se pueden cocinar a la parrilla, en una sartén o
+            incluso en una plancha, lo que les da un acabado dorado y crujiente
+            por fuera, mientras que el interior se mantiene suave y esponjoso.
+            Es un plato que ha trascendido fronteras, pero que sigue siendo un
+            símbolo de la comida casera colombiana, evocando recuerdos de
+            desayunos familiares en el campo.
+          </p>
+        </div>
+        <div class="preparacion-time">
+          <h2>Tiempo de Preparación</h2>
+          <ul>
+            <li class="lista">Total: Aproximadamente 10 minutos.</li>
+            <li class="lista">Preparación: 20 minutos.</li>
+            <li class="lista">Cocción: 20 minutos.</li>
+          </ul>
+        </div>
+        <h2>Instrucciones</h2>
+        <ol>
+          <li>
+            Desgrana los choclos frescos y coloca los granos en una licuadora.
+            Agrega un poco de agua o leche para facilitar la mezcla y licúa
+            hasta obtener una masa suave.
+          </li>
+          <br />
+
+          <li>
+            En un tazón grande, mezcla la masa de choclo con harina de maíz,
+            azúcar y sal al gusto. Asegúrate de que la mezcla quede bien
+            homogénea.
+          </li>
+          <br />
+
+          <li>
+            Añade el queso rallado a la masa y mezcla bien. La cantidad de queso
+            puede variar según tu preferencia, pero lo ideal es que quede bien
+            incorporado en la masa.
+          </li>
+          <br />
+          <li>
+            Calienta una sartén o plancha a fuego medio y unta un poco de
+            mantequilla o aceite.
+          </li>
+          <br />
+
+          <li>
+            Vierte una porción de la mezcla en la sartén caliente, formando un
+            círculo. Cocina cada lado durante 3-4 minutos, o hasta que la arepa
+            esté dorada y cocida por dentro.
+          </li>
+          <br />
+
+          <li>
+            Repite el proceso con el resto de la masa. Si prefieres, puedes
+            hacer arepas más pequeñas o más grandes según tu gusto.
+          </li>
+          <br />
+
+          <li>
+            Cuando las arepas estén listas, colócalas en un plato y cúbrelas con
+            una rebanada de queso fresco. Si te gusta, puedes dejar que el queso
+            se derrita un poco sobre la arepa caliente.
+          </li>
+          <br />
+
+          <li>
+            Sirve las arepas de choclo acompañadas de una porción de mantequilla
+            para untar, y si lo prefieres, una taza de café colombiano o
+            chocolate caliente.
+          </li>
+          <br />
+
+          <li>
+            Disfruta estas arepas recién hechas, con su sabor dulce y salado
+            perfectamente equilibrado.
+          </li>
+          <br />
+
+          <li>
+            Puedes guardar las arepas que te sobren en un recipiente hermético y
+            recalentarlas al día siguiente; estarán igual de deliciosas.
+          </li>
+        </ol>
+      </div>
+      <!-- cierre Módulo de Descripción Receta -->
+
+      <!-- Módulo de Ingredientes izq superior -->
+      <aside class="seccion-aside">
+        <div class="ingredientes">
+          <h2>Ingredientes</h2>
+          <ul>
+            <li class="lista">2 choclos frescos (mazorcas de maíz tierno)</li>
+            <li class="lista">1 taza de harina de maíz</li>
+            <li class="lista">1 taza de queso rallado (preferiblemente queso campesino)</li>
+            <li class="lista">2 cucharadas de azúcar</li>
+            <li class="lista">Mantequilla para cocinar</li>
+          </ul>
+
+          <!-- ====* inicio tabla nutricion ===== -->
+          <h2>Nutrición</h2>
+          <div class="contenido-nutricional">
+            <table class="tabla-nutricional">
+              <tr>
+                <td>Calorías</td>
+                <td>250 kcal</td>
+              </tr>
+              <tr>
+                <td>Proteínas</td>
+                <td>8 g</td>
+              </tr>
+              <tr>
+                <td>Carbohidratos</td>
+                <td>30 g</td>
+              </tr>
+              <tr>
+                <td>Grasas</td>
+                <td>10 g</td>
+              </tr>
+              <tr>
+                <td>Fibra Dietética</td>
+                <td>2 g</td>
+              </tr>
+            </table>
+          </div>
+          <!-- ====* cierre tabla nutricion ===== -->
+        </div>
+
+<!-- =========================* inicio de recomendados widget ========================= -->
+
+        <!-- sección de mas recetas izq superior -->
+        <div class="mas-recetas">
+          <h2 class="titulo-mas-recetas">Más Recetas</h2>
+          <!-- blog 1 widget receta  ==================================================-->
+          <div class="recetablog">
+            <a href="./receta1.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/receta_ajiaco_santafereño.jpg"
+                alt="Ajiaco Santafereño"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Ajiaco Santafereño</h3>
+              <p class="descripcioncorta-receta">
+                Prueba el Ajiaco Santafereño, una sopa tradicional colombiana
+                con pollo, tres tipos de papas y el toque único de las guascas.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 1 widget receta  -->
+          <!-- blog 2 widget receta ======================================================== -->
+          <div class="recetablog">
+            <a href="./receta2.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/bandeja-paisa-1616.gif"
+                alt="Bandeja Paisa
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Bandeja Paisa</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de la Bandeja Paisa, un plato tradicional colombiano
+                con frijoles, arroz, chicharrón, carne y aguacate.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 2 widget receta  -->
+          <!-- blog 3 widget receta  =============================================================-->
+          <div class="recetablog">
+            <a href="./receta3.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/sancocho-de-gallina-1594.webp"
+                alt="Sancocho de Gallina"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Sancocho de Gallina</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de un Sancocho de Gallina, un caldo tradicional
+                colombiano con gallina, yuca, papas y plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 3 widget receta  -->
+          
+          <!-- cierre blog 4 widget receta  -->
+          <!-- blog 5 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta5.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/shutterstock_760434061-scaled.jpg"
+                alt="Empanadas Colombianas
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Empanadas Colombianas
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Empanadas Colombianas, crujientes y rellenas de carne y papas, perfectas para cualquier ocasión.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 5 widget receta  -->
+          <!-- blog 6 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta6.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/tamales colombiano.jpg"
+                alt="tamales colombiano"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Tamales Colombiano              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de los Tamales Colombianos, rellenos de carne, papas y arroz, envueltos en hojas de plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 6 widget receta  -->
+        </div>
+      </aside>
+    </section>
+    <!-- cierre de mas recetas izq superior -->
+    <!-- =========================* cierre de recomendados widget ========================= -->
+
+    <!-- ===========================* Cierre contenido  pagina receta1.html====================== -->
+
+    <main>
+      <section></section>
+    </main>
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+      <img
+        class="logo"
+        src="./img/logo_bitcook (1).png"
+        alt="Logo de Recetas Richy"
+      />
+      <a href="  https://bit.institute/">
+        <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+      </a>
+    </footer>
+    <!-- Conexión página javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+body {
+   padding: 15px;
+   background-color: #f3e5d8;
+   font-family: "DM Sans", arial,Helvetica, sans-serif;
+
+}
+
+a{
+   color: #f7f7f7;
+}
+.h1 {
+color: #f7f7f7;
+}
+h1 {
+   font-size: 40px;
+}
+h2 {
+   color: #7E4333;
+   }
+p {
+      color:#000000;
+   }
+.modo-boton {
+   width: 40px; 
+   height: 40px;
+   cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+   margin: 5px;
+}
+.bannerCover {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #275938;
+   border-radius: 10px;
+   padding: 20px;
+   color: rgb(247, 232, 232);
+   size-adjust: 10%;
+   height: 58px; 
+   margin-bottom: 20px; /* Añade un margen inferior para separar el banner del resto del contenido */
+   width: 100%; /* Asegura que el banner cubra todo el ancho de la página */
+   box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
+  
+}
+.bannerCover h1 {
+   margin-left: 40px;
+}
+.ladooscuro {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+button {
+   border-radius: 20px;
+}
+
+.logo-container {
+size: 20px;
+}
+.logo {
+size: 20px;
+}
+.oscuro, .claro {
+   width: 40px;
+   height: 40px;
+   margin: 2%;
+}
+.bannertitulo {
+   position: relative;
+   color: white;
+   padding: 20px;
+   margin: 2rem;
+   background-image: url("./img/imagen_banner_principal.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 368px;
+   overflow: hidden;
+}
+.bannertitulo::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   z-index: 1;
+}
+.bannertitulo h1 {
+   position: relative;
+   z-index: 2;
+}
+
+.recetas-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: center;
+}
+.Recetas {
+   flex: 1 1 calc(33.333% - 20px); /* 3 recetas por fila en desktop */
+   box-sizing: border-box;
+}
+.Recetas:hover {
+   transform: scale(1.03);
+   transition: transform 0.3s ease-in-out;
+}
+.receta-link {
+   display: block;
+   text-decoration: none; /* Quita el subrayado */
+   color:#7E4333; /* Mantiene el color original del texto */
+}
+.platos {
+   padding: 10px;
+   border-radius: 20px;
+   background-color: white; /* Color de fondo del contenedor */
+   display: flex; /* Alinea el contenido dentro del contenedor */
+   flex-direction: column; /* Alinea los elementos en columna */
+   align-items: left; /* Centra los elementos dentro del contenedor */
+   text-align: left; /* Centra el texto */
+   overflow: hidden; /* Asegura que el contenido no sobresalga del contenedor */
+   color:#7E4333;
+
+}
+.platos h2 
+recetas1
+
+.platos img {
+   width: 100%; /* Ajusta el ancho de la imagen para llenar el contenedor */
+   height: 400px; /* Mantiene la proporción de la imagen */
+   border-radius: 15px; /* Redondea las esquinas de la imagen */
+   margin-bottom: 5px; /* Espacio entre la imagen y el contenido de abajo */
+}
+.imagen_banner {
+   width: 400px; /* Ancho fijo de 400 píxeles */
+   height: 400px; /* Altura fija de 400 píxeles */
+   object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+   border-radius: 15px; /* Mantiene el borde redondeado */
+}
+
+.lista {
+color: #000000;
+
+}
+.bannerpie {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #275938;
+   border-radius: 10px;
+   padding: 20px;
+   color: rgb(247, 232, 232);
+   size-adjust: 10%;
+   height: 58px; 
+   margin-top: 4%;
+   margin-bottom: 0%;
+}
+.bannerpagrecetas {
+   position: relative;
+   color: white;
+   padding: 20px;
+   margin: 2rem;
+   background-image: url("./img/imagen_banner_principal.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 368px;
+   overflow: hidden;
+}
+.bannerpagrecetas::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   z-index: 1;
+}
+.bannertitulo h1 {
+   position: relative;
+   z-index: 2;
+   
+}
+.Preparación-time {
+   background-color: rgb(138, 115, 115);
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* ========================= Iinicio CSS pagina receta1.html =======================================*/
+
+.grid-container {
+   display: grid;
+   grid-template-columns: 70% 30%; /* Dos columnas: 70% para la descripción y 30% para ingredientes */
+   gap: 20px; /* Espacio entre las columnas */
+   margin: 10px auto; /* Centra el contenido y ajusta márgenes automáticamente */
+   padding: 20px;
+}
+
+/* Media querysponsive en pantallas pequeñas */
+@media (max-width: 768px) {
+   .grid-container {
+       grid-template-columns: 1fr; /* Cambia a una sola columna en pantallas pequeñas */
+   }
+
+   .descripcion-receta, .ingredientes {
+       width: 100%; /* Asegura que ocupen todo el ancho disponible */
+       margin-bottom: 20px; /* Añade espacio entre las secciones */
+   }
+}
+
+/* Estilo para la sección de descripción de la receta */
+.descripcion-receta {
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.platos img {
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+
+/* Estilo para la sección de ingredientes */
+.ingredientes {
+   background-color: white;
+   padding: 15px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ingredientes h2 {
+   margin-bottom: 15px;
+   color: #7E4333;
+
+}
+
+.ingredientes ul {
+   margin-bottom: 20px;
+}
+
+.ingredientes p {
+   margin-top: 10px;
+}
+
+/* Tabla nutricional */
+.tabla-nutricional {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.tabla-nutricional td {
+   border-bottom: 1px solid #000;
+   padding: 10px;
+}
+
+.tabla-nutricional tr:last-child td {
+   border-bottom: none; /* Quita la línea en la última fila */
+}
+
+/* Más recetas */
+.mas-recetas {
+   background-color: rgb(255, 255, 255);
+   margin-top: 20px;
+   padding: 20px;
+   border-radius: 10px;
+}
+
+.recetablog {
+   display: flex;
+   padding: 5px 8px;
+   margin-bottom: 10px;
+}
+
+.imagen-receta1 {
+   width: 64px !important;
+   height: 64px !important;
+   border-radius: 8px;
+}
+.title-platos {
+   color:#7E4333;
+   ;
+
+}
+
+.title-recetas {
+   font-size: 18px; /* Corrección del error tipográfico */
+   color: #7E4333;
+   margin-bottom: 5px;
+   margin-top: 0;
+   margin-left: 10px;
+}
+
+.descripcioncorta-receta {
+   font-size: 14px; /* Ajuste del tamaño de la fuente */
+   color: #000000;
+   margin-bottom: 5px;
+   margin-top: 0;
+   margin-left: 10px;
+}
+
+.preparacion-time {
+   background-color: #FFF7FC;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+/* ======================= Final CSS pagina receta1.html ================================= */
+/* ========================= Inicio CSS formulario receta1.html =======================================*/
+.formulario1 {
+   display: grid;
+   gap: 20px;
+   max-width: 820px;
+   height: 946;
+   margin: 0 auto; /* Centra el formulario en la página */
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formulario1 h2 {
+   margin-bottom: 10px;
+   color: #7E4333; /* Color verde para los títulos h2 */
+}
+
+.formulario1 input[type="text"],
+.formulario1 textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+   border: 1px solid #ccc;
+   background-color: #DFDFDF; /* Fondo gris claro */
+   font-size: 16px;
+   box-sizing: border-box;
+}
+
+.formulario1 textarea {
+   resize: vertical; /* Permite cambiar el tamaño vertical de los textareas */
+}
+
+.enviar-btn {
+   background-color: #255538; /* Color verde para el botón */
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 16px;
+   text-align: center;
+}
+
+.enviar-btn:hover {
+   background-color: #1e4430; /* Color ligeramente más oscuro al pasar el ratón */
+}
+
+.boton-volver {
+   display: grid;
+   background-color: #255538; /* Color verde para el botón */
+   color: white; /* Color del texto en blanco */
+   padding: 10px 20px; /* Espaciado interno del botón */
+   border-radius: 10px; /* Bordes redondeados */
+   text-decoration: none; /* Eliminar subrayado */
+   font-size: 16px; /* Tamaño de fuente */
+   text-align: center; /* Centra el texto dentro del botón */
+   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+   transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+   margin: 20px auto; /* Centra el botón y añade margen superior e inferior */
+}
+
+.container-boton {
+   text-align: center; /* Centra el botón horizontalmente */
+}
+
+
+.boton-volver:hover {
+   background-color: #1e4430; /* Color verde más oscuro al pasar el cursor */
+}
+
+
+
+
+
+/* ========================= final CSS formulario receta1.html =======================================*/
+
+
+/* Para tablets y dispositivos más pequeños */
+@media (max-width: 1279px) { 
+   .Recetas {
+       flex: 1 1 calc(33.333% - 20px); /* 3 recetas por fila en tablets */
+   }
+}
+/* Ajuste para tablets en pantallas más pequeñas */
+@media (max-width: 768px) { 
+   .Recetas {
+       flex: 1 1 calc(50% - 20px); /* 2 recetas por fila en tablets más pequeñas */
+   }
+}
+/* Ajuste para móviles */
+@media (max-width: 480px) { 
+   .Recetas {
+       flex: 1 1 100%; /* 1 receta por fila en móviles */
+   }
+}
+/* Ajuste adicional para pantallas más pequeñas */
+@media (max-width: 500px) { 
+   .bannertitulo {
+       margin: 1rem 0;
+   }
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- inicio Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receta 3 BitCook</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- Inicio menu -->
+  <body>
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+        <!-- redirección formulario -->
+        <a href="formulario.html">
+          <h4>Envíanos tu receta</h4>
+        </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- ===========================* Iinicio contenido pagina receta1.html  ====================== -->
+    <!-- Módulo de Descripción Receta -->
+    <section class="grid-container">
+      <!-- Descripción de la receta -->
+      <div class="descripcion-receta">
+        <div class="platos">
+          <img
+            class="imagen_banner"
+            src="./img/sancocho-de-gallina-1594.webp"
+            alt="bruschetta"
+          />
+          <h2>Sancocho de Gallina</h2>
+          <p>
+            El Sancocho de Gallina es uno de los platos más representativos de
+            la cocina colombiana, especialmente en las regiones del Valle del
+            Cauca y el Tolima. Este caldo espeso y lleno de sabor es un símbolo
+            de la gastronomía tradicional, donde cada familia tiene su propia
+            versión transmitida de generación en generación. El sancocho se
+            prepara con una variedad de tubérculos como yuca, papa, y plátano,
+            junto con trozos de gallina campesina, lo que le da un sabor único y
+            auténtico. Se sirve caliente, acompañado de arroz blanco, aguacate y
+            ají, creando una combinación perfecta para cualquier ocasión, ya sea
+            un almuerzo en familia o una celebración especial.
+            <br />
+            <br />
+            La preparación del Sancocho de Gallina es todo un ritual en muchas
+            partes de Colombia. Es un plato que se disfruta en compañía, donde
+            la paciencia es clave para lograr que cada ingrediente aporte su
+            máximo sabor. El resultado es un caldo reconfortante, nutritivo y
+            profundamente arraigado en la cultura colombiana. Este plato es
+            mucho más que una simple sopa; es un reflejo de la tradición y
+            hospitalidad colombiana, perfecto para compartir y disfrutar con
+            seres queridos.
+          </p>
+        </div>
+        <div class="preparacion-time">
+          <h2>Tiempo de Preparación</h2>
+          <ul>
+            <li class="lista">Total: Aproximadamente 3 horas.</li>
+            <li class="lista">1 hora.</li>
+            <li class="lista">Cocción: 2 horas.</li>
+          </ul>
+        </div>
+        <h2>Instrucciones</h2>
+        <ol>
+          <li>
+            Lava y corta la gallina en piezas medianas. En una olla grande,
+            agrega 3 litros de agua y lleva a ebullición.
+          </li>
+          <br />
+          <li>
+            Añade la gallina a la olla junto con la cebolla, el ajo, y las
+            hierbas aromáticas (cilantro, tomillo y laurel). Cocina a fuego
+            medio durante 1 hora o hasta que la gallina esté tierna.
+          </li>
+          <br />
+          <li>
+            Pela y corta la yuca, las papas, el plátano verde y el plátano
+            maduro en trozos grandes.
+          </li>
+          <br />
+          <li>
+            Agrega la yuca, las papas y los plátanos a la olla con la gallina.
+            Cocina a fuego lento durante 30 minutos más.
+          </li>
+          <br />
+          <li>
+            Añade el maíz (mazorca) cortado en trozos y continúa cocinando a
+            fuego lento durante 20 minutos, hasta que todos los ingredientes
+            estén bien cocidos.
+          </li>
+          <br />
+
+          <li>
+            Rectifica la sal y ajusta el sabor con un poco de pimienta y comino
+            al gusto.
+          </li>
+          <br />
+          <li>
+            Retira los trozos de gallina y desmenúzalos si prefieres una textura
+            más suave, o déjalos enteros para una presentación más tradicional.
+          </li>
+          <br />
+          <li>
+            Sirve el sancocho caliente en platos hondos, asegurándote de incluir
+            un poco de cada ingrediente en cada porción.
+          </li>
+          <br />
+          <li>
+            Acompaña el sancocho con una porción de arroz blanco, rodajas de
+            aguacate y una cucharada de ají casero para un toque picante.
+          </li>
+          <br />
+          <li>
+            Disfruta este sancocho tradicional colombiano en compañía de tu
+            familia o amigos, un plato que alimenta el cuerpo y el alma.
+          </li>
+        </ol>
+      </div>
+      <!-- cierre Módulo de Descripción Receta -->
+
+      <!-- Módulo de Ingredientes izq superior -->
+      <aside class="seccion-aside">
+        <div class="ingredientes">
+          <h2>Ingredientes</h2>
+          <ul>
+            <li class="lista">1 gallina (aproximadamente 1.5 kg).</li>
+            <li class="lista">500g de yuca .</li>
+            <li class="lista">500g de papa (criolla o pastusa).</li>
+            <li class="lista">2 plátanos verdes y 1 plátano maduro</li>
+            <li class="lista">500g de papa (criolla o pastusa).</li>
+            <li class="lista">2 plátanos verdes y 1 plátano maduro</li>
+          </ul>
+
+         <!-- ====* inicio tabla nutricion ===== -->
+         <h2>Nutrición</h2>
+         <div class="contenido-nutricional">
+           <table class="tabla-nutricional">
+             <tr>
+               <td>Calorías</td>
+               <td>400 kcal</td>
+             </tr>
+             <tr>
+               <td>Proteínas</td>
+               <td>30 g</td>
+             </tr>
+             <tr>
+               <td>Carbohidratos</td>
+               <td>60 g</td>
+             </tr>
+             <tr>
+               <td>Grasas</td>
+               <td>10 g</td>
+             </tr>
+             <tr>
+               <td>Fibra Dietética</td>
+               <td>8 g</td>
+             </tr>
+           </table>
+         </div>
+         <!-- ====* cierre tabla nutricion ===== -->
+        </div>
+
+       <!-- =========================* inicio de recomendados widget ========================= -->
+
+        <!-- sección de mas recetas izq superior -->
+        <div class="mas-recetas">
+          <h2 class="titulo-mas-recetas">Más Recetas</h2>
+          <!-- blog 1 widget receta  ==================================================-->
+          <div class="recetablog">
+            <a href="./receta1.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/receta_ajiaco_santafereño.jpg"
+                alt="Ajiaco Santafereño"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Ajiaco Santafereño</h3>
+              <p class="descripcioncorta-receta">
+                Prueba el Ajiaco Santafereño, una sopa tradicional colombiana
+                con pollo, tres tipos de papas y el toque único de las guascas.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 1 widget receta  -->
+          <!-- blog 2 widget receta ======================================================== -->
+          <div class="recetablog">
+            <a href="./receta2.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/bandeja-paisa-1616.gif"
+                alt="Bandeja Paisa
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">Bandeja Paisa</h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de la Bandeja Paisa, un plato tradicional colombiano
+                con frijoles, arroz, chicharrón, carne y aguacate.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 2 widget receta  -->
+          <!-- blog 3 widget receta  =============================================================-->
+        
+          <!-- cierre blog 3 widget receta  -->
+          <!-- blog 4 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta4.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/ArepaChoclo_fe3608e9-9760-42ea-8536-13fb4ad2baf1@2x.webp"
+                alt="Arepas de Choclo
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Arepas de Choclo
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Arepas de Choclo, una deliciosa arepa colombiana hecha con maíz tierno y queso.
+              </p>
+              </a>
+            </div>
+          </div>
+          <!-- cierre blog 4 widget receta  -->
+          <!-- blog 5 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta5.html"> 
+
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/shutterstock_760434061-scaled.jpg"
+                alt="Empanadas Colombianas
+                "
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Empanadas Colombianas
+              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de las Empanadas Colombianas, crujientes y rellenas de carne y papas, perfectas para cualquier ocasión.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 5 widget receta  -->
+          <!-- blog 6 widget receta  -->
+          <div class="recetablog">
+            <a href="./receta6.html"> 
+            <div class="contenedor-imagen-receta1">
+              <img
+                class="imagen-receta1"
+                src="./img/tamales colombiano.jpg"
+                alt="tamales colombiano"
+              />
+            </div>
+            <div class="contenido-receta">
+              <h3 class="title-recetas">
+                Tamales Colombiano              </h3>
+              <p class="descripcioncorta-receta">
+                Disfruta de los Tamales Colombianos, rellenos de carne, papas y arroz, envueltos en hojas de plátano.
+              </p>
+            </a>
+            </div>
+          </div>
+          <!-- cierre blog 6 widget receta  -->
+        </div>
+      </aside>
+    </section>
+    <!-- cierre de mas recetas izq superior -->
+    <!-- =========================* cierre de recomendados widget ========================= -->
+
+    <!-- ===========================* Cierre contenido  pagina receta1.html====================== -->
+
+    <main>
+      <section></section>
+    </main>
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+      <img
+        class="logo"
+        src="./img/logo_bitcook (1).png"
+        alt="Logo de Recetas Richy"
+      />
+      <a href="  https://bit.institute/">
+        <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+      </a>
+    </footer>
+    <!-- Conexión página javascript -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

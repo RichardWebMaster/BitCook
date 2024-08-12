@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Recetas de Richy</title>
+    <!-- Conexión página estilos -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Inicio menú -->
+    <header class="bannerCover">
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            class="logo"
+            src="./img/logo_bitcook (1).png"
+            alt="Logo de Recetas Richy"
+          />
+        </a>
+      </div>
+      <div class="ladooscuro">
+         <!-- redirección formulario -->
+         <a href="index.html">
+            <h4>Volver inicio</h4>
+        </a>
+        <!-- Imagen para modo oscuro -->
+        <img
+          class="modo-boton"
+          id="modo-oscuro"
+          src="./img/modo_oscuro_luna_negro.PNG"
+          alt="Modo Oscuro"
+          onclick="activarModoOscuro()"
+        />
+        <!-- Imagen para modo claro -->
+        <img
+          class="modo-boton"
+          id="modo-claro"
+          src="./img/modo_oscuro_luna_claro.PNG"
+          alt="Modo Claro"
+          onclick="activarModoClaro()"
+        />
+      </div>
+    </header>
+    <!-- Inicio Banner página de inicio -->
+    <main>
+      <div class="bannertitulo">
+        <h1>BitCook</h1>
+      </div>
+      <!-- ==================== Contenedor para formulario  ====================-->
+      <section class="formulario1">
+        <h1>Contacto</h1>
+        <p>Por favor, completa el siguiente formulario para enviarnos tu receta. Estaremos encantados de revisar tu creación culinaria.</p>
+        
+        <form>
+            <!-- Campo para Nombre de la Receta -->
+            <label for="nombre-receta"><h2>Nombre de la Receta</h2></label>
+            <input type="text" id="nombre-receta" name="nombre-receta" maxlength="100" placeholder="Ingresa el nombre de la receta" required>
+    
+            <!-- Campo para Tiempo de Preparación -->
+            <label for="tiempo-preparacion"><h2>Tiempo de Preparación</h2></label>
+            <input type="text" id="tiempo-preparacion" name="tiempo-preparacion" maxlength="100" placeholder="Ingresa el tiempo de preparación" required>
+    
+            <!-- Campo para Ingredientes -->
+            <label for="ingredientes"><h2>Ingredientes</h2></label>
+            <textarea id="ingredientes" name="ingredientes" maxlength="500" rows="4" placeholder="Ingresa los ingredientes" required></textarea>
+    
+            <!-- Campo para Instrucciones -->
+            <label for="instrucciones"><h2>Instrucciones</h2></label>
+            <textarea id="instrucciones" name="instrucciones" maxlength="500" rows="4" placeholder="Ingresa las instrucciones" required></textarea>
+    
+            <!-- Botón de Enviar -->
+            <button type="submit" class="enviar-btn">Enviar</button>
+        </form>
+       
+
+    </section>
+        <!-- ==================== cierre para formulario  ====================-->
+        <div>
+            <a href="index.html" class="boton-volver">
+                Volver a página principal
+            </a>
+        </div>
+    <!-- Inicio Pie Página -->
+    <footer class="bannerpie">
+        <img
+          class="logo"
+          src="./img/logo_bitcook (1).png"
+          alt="Logo de Recetas Richy"
+        />
+        <a href="  https://bit.institute/">
+        <h5>&copy; 2024 Bogotá Institute of Technology (richy).</h5>
+    </a>
+      </footer>
+      <!-- Conexión página javascript -->
+      <script src="./js/script.js"></script>
+    </body>
+  </html>
